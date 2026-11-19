@@ -1,0 +1,31 @@
+:root {
+  --ink: #10091b;
+  --surface: #171122;
+  --violet: #45117d;
+  --red: #f52238;
+  --paper: #f8f7fb;
+  --muted: #b6adbf;
+  --line: #65576f;
+  --control-border: #8f7c9f;
+  --font-display: "Space Grotesk Variable", Arial, sans-serif;
+  --font-body: "Inter Variable", Arial, sans-serif;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --section-space: 3.5rem;
+  --page-margin: 1.25rem;
+  --content-max: 84rem;
+  --motion-fast: 200ms;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+}
+@media (min-width: 768px) {
+  :root { --page-margin: 1.5rem; --section-space: 5rem; }
+}
+@media (min-width: 1200px) {
+  :root { --page-margin: 3rem; --section-space: 6rem; }
+}
